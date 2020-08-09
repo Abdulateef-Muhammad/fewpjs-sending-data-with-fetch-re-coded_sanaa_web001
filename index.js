@@ -19,13 +19,7 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(json){
-    let infoBox = document.createElement('div');
-    infoBox.setAttribute('id', 'info-box');
-    document.body.appendChild(infoBox);
-    // infoBox.innerHTML += '<p>' + json.name + '</p>';
-    // infoBox.innerHTML += '<p>' + json.email + '</p>';
-    infoBox.innerHTML = json.id;
-
+    document.body.innerHTML = json.id;
   }).catch(function(error){
     document.body.innerHTML = error.message;
   });
