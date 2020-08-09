@@ -10,13 +10,13 @@
 //   // infoBox.innerHTML += '<p>' + json.name + '</p>';
 //   // infoBox.innerHTML += '<p>' + json.email + '</p>';
 //   infoBox.innerHTML = json.id;
-// 
+//
 // }).catch(function(error){
 //   document.body.innerHTML = error.message;
 // });
-// 
-// 
-// 
+//
+//
+//
 // function submitData(name, email) {
 //   let url = 'http://localhost:3000/users';
 //   let data = {
@@ -31,7 +31,7 @@
 //     },
 //     body: JSON.stringify(data)
 //   };
-// 
+//
 //   return fetch(url, configObj);
 // }
 
