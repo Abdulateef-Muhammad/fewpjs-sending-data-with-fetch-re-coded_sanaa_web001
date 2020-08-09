@@ -14,7 +14,7 @@ function submitData(name, email) {
     body: JSON.stringify(data)
   };
 
-  fetch(url, configObj)
+  return fetch(url, configObj)
   .then(function(response){
     return response.json();
   })
