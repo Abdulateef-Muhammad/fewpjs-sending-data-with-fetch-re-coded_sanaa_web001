@@ -19,7 +19,7 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(json){
-    document.body.innerHTML = json.id;
+    document.body.innerHTML = json['id'];
   }).catch(function(error){
     document.body.innerHTML = error.message;
   });
