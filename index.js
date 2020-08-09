@@ -24,7 +24,7 @@ function submitData(name, email) {
     document.body.innerHTML = error.message;
   });
 }
-
+// 
 // function submitData( name, email ) {
 //   return fetch( 'http://localhost:3000/users', {
 //       method: "POST",
